@@ -1,9 +1,11 @@
+import './WeatherInformations.css'
+
 function WeatherInformations({weather}) {
 
   // Verifica se o objeto weather e suas propriedades existem
-  if (!weather || !weather.weather || !weather.weather[0]) {
-      return <p>Carregando informações meteorológicas...</p>;
-  }
+  // if (!weather || !weather.weather || !weather.weather[0]) {
+  //     return <p>Carregando informações meteorológicas...</p>;
+  // }
 
   console.log(weather);
 
