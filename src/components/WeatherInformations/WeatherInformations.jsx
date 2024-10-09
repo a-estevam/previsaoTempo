@@ -10,7 +10,7 @@ function WeatherInformations({weather}) {
   console.log(weather);
 
   return (
-      <div>
+      <div className='previsao'>
           <h2>{weather.name}</h2>
           <div>
           <img 

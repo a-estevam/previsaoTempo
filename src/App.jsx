@@ -30,7 +30,7 @@ function App() {
 
 
   return (
-  <div>
+  <div className='content'>
     <h1>previsão do tempo</h1>
     <input ref={inputRef} type="text" placeholder='Digite o nome da cidade' />
     <button onClick={searchCity}>Buscar</button>
